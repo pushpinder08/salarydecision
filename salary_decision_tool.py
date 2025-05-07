@@ -11,7 +11,7 @@ def pv_b(y, t, r, x): return 0.08 * t * x + 1.08 * x * pv_factor(y, r)
 # ----------------------------
 # Title and Inputs
 # ----------------------------
-st.title("💰 Salary Decision Tool")
+st.title("💰 Salary Decision Tool by Pushpinder Gill")
 
 x = st.number_input("Current annual salary (x)", value=100000.0, step=1000.0)
 y = st.number_input("Years you plan to stay (y)", value=10.0, step=1.0)
